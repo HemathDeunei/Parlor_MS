@@ -19,24 +19,24 @@ $CurrentPage = basename($_SERVER['PHP_SELF']);
     
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/css/animate.css">
     
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/css/magnific-popup.css">
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/css/aos.css">
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/css/ionicons.min.css">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/css/jquery.timepicker.css">
 
     
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/css/flaticon.css">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/css/icomoon.css">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/css/style.css">
   </head>
   <body>
     

@@ -15,9 +15,9 @@ $CurrentServer = $_SERVER['SERVER_NAME'];
 
 if($CurrentServer == "localhost")
 {
-    define("SITE_URL",$Protocol.$_SERVER['SERVER_NAME']."/ecommerce-app"); 
-    define("ROOT",$_SERVER['DOCUMENT_ROOT']."/ecommerce-app"); 
-    define("UPLOAD_PATH",$_SERVER['DOCUMENT_ROOT']."/ecommerce-app/uploads"); 
+    define("SITE_URL",$Protocol.$_SERVER['SERVER_NAME']."/Parlor_MS"); 
+    define("ROOT",$_SERVER['DOCUMENT_ROOT']."/Parlor_MS"); 
+    define("UPLOAD_PATH",$_SERVER['DOCUMENT_ROOT']."/Parlor_MS/uploads"); 
     define("UPLOAD_URL",SITE_URL."/uploads"); 
 
     define("DB_SERVER","localhost"); 
@@ -26,9 +26,9 @@ if($CurrentServer == "localhost")
     define("DB_NAME","parlor_db"); 
 
 }else{
-    define("SITE_URL",$Protocol.$_SERVER['SERVER_NAME']."/site/ecommerce"); 
-    define("ROOT",$_SERVER['DOCUMENT_ROOT']."/site/ecommerce"); 
-    define("UPLOAD_PATH",$_SERVER['DOCUMENT_ROOT']."/site/ecommerce/uploads"); 
+    define("SITE_URL",$Protocol.$_SERVER['SERVER_NAME']."/site/parlor"); 
+    define("ROOT",$_SERVER['DOCUMENT_ROOT']."/site/parlor"); 
+    define("UPLOAD_PATH",$_SERVER['DOCUMENT_ROOT']."/site/parlor/uploads"); 
     define("UPLOAD_URL",SITE_URL."/uploads"); 
 
     define("DB_SERVER","mocha3036.mochahost.com"); 
