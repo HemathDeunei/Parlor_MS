@@ -8,7 +8,7 @@ if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
 }
 
 define("DEV_ENV","ON"); //  ON or OFF - For UI
-define("PROD_ENV","OFF"); //  ON or OFF - For DB
+define("PROD_ENV","ON"); //  ON or OFF - For DB
 
 define("PAYMENT_KEY","rzp_test_zTv48rEyiAaPfG");
 

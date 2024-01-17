@@ -102,6 +102,16 @@ $ProfilePic = empty($Profile["image"]) ? 'images/default/profile.jpg' : $Profile
                                                 <div class="card-body" style="top:0px;padding: 5px;height: 30px;">
                                                     '.$value["service_name"].'
                                                 </div>
+                                                <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <img class="img-fluid" style="border-radius: 0px;height: 20px;" src="images/icons/user.png">
+                                                    '.$value["staff_name"].'
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <img class="img-fluid" style="border-radius: 0px;height: 20px;" src="images/icons/store.png">
+                                                    '.$value["store_name"].'
+                                                </li>
+                                              </ul>
                                                 </div>';
                                             }
 

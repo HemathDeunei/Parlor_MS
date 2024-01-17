@@ -553,6 +553,21 @@ function getUserTransactions($conn, $user){
                     $InfoArray["service_image"]  = $info["service_image"];
                     $InfoArray["service_name"]   = $info["service_name"];
 
+                    $StoreDetails = getStoreInfo($conn, $info["store"]);
+
+                    $InfoArray["store_name"]   = $StoreDetails["name"];
+
+                    if($info["staff"])
+                    {
+                        $StaffDetails = getProfileDetails($conn, $info["staff"]);
+
+                        $InfoArray["staff_name"]   = $StaffDetails["first_name"] . ' ' . $StaffDetails["last_name"];
+                    }else{
+                        $InfoArray["staff_name"]   = 'Not Assigned';
+
+                    }
+
+
                     array_push($OrdersArray,$InfoArray);
 
                 }
