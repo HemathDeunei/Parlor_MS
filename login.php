@@ -39,6 +39,7 @@
     <!-- END nav -->
 
     <section class="ftco-section contact-section">
+        <div style='font-family: "Montserrat", Arial, sans-serif;text-align:center;color: #fff;font-weight: 700;font-size: 30px;'>Login</div>
         <div class="container mt-5">
           <div class="row block-9">
 						
